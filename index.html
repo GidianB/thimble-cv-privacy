@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thimble CV privacy policy</title>
+<style>
+  :root { color-scheme: light dark; --text: #1d1d1b; --muted: #5c5c57; --bg: #fdfcf9; --link: #1a4fa0; }
+  @media (prefers-color-scheme: dark) { :root { --text: #ecebe6; --muted: #a8a7a0; --bg: #171716; --link: #8fb4ff; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 1.8rem; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+  p, li { max-width: 65ch; }
+  .date { color: var(--muted); margin: 0 0 24px; }
+  a { color: var(--link); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Thimble CV privacy policy</h1>
+  <p class="date">Effective 17 November 2026</p>
+
+  <p>Thimble CV is a Chrome extension that tailors your CV to a job posting. It is made by GidianB. It has no server and no accounts. We never receive your CV, your API key or the pages you read.</p>
+
+  <h2>What the extension stores on your computer</h2>
+  <ul>
+    <li>The CV files you choose (PDF, TXT or Markdown).</li>
+    <li>The AI provider you choose, the model name, if you type one, and your API key.</li>
+  </ul>
+  <p>These stay in Chrome's extension storage on your computer until you replace them or remove the extension.</p>
+
+  <h2>What the extension reads</h2>
+  <p>The extension reads a web page only when you click its button. It then reads all visible text on the page in the active tab, with the page's title and address (URL). On some sites, such as job boards where you are signed in, that text can include your name or messages shown on the page. It holds them in Chrome's temporary session storage while the CV tab opens. It deletes them once your CV is ready. If tailoring fails, they stay until you close Chrome, which clears session storage.</p>
+  <p>Your chat messages in the CV tab exist only while that tab is open.</p>
+
+  <h2>What the extension sends, and to whom</h2>
+  <p>To tailor your CV, the extension sends these to the one AI provider you chose in Settings, using your API key:</p>
+  <ul>
+    <li>your CV files,</li>
+    <li>the page text and its address,</li>
+    <li>your chat messages in the CV tab.</li>
+  </ul>
+  <p>The extension sends nothing anywhere else. That provider's own terms and privacy policy cover what it does with the data:</p>
+  <ul>
+    <li><a href="https://www.anthropic.com/legal/commercial-terms">Anthropic commercial terms</a> (these cover API use)</li>
+    <li><a href="https://openai.com/enterprise-privacy/">OpenAI enterprise and API privacy</a></li>
+    <li><a href="https://ai.google.dev/gemini-api/terms">Gemini API terms</a>. If your Google API key is on the unpaid tier, Google may use your inputs and outputs to improve its products.</li>
+  </ul>
+
+  <h2>What we don't do</h2>
+  <ul>
+    <li>We don't collect, sell or share your data.</li>
+    <li>We don't use analytics, tracking or advertising.</li>
+    <li>We don't use your data for any purpose other than tailoring your CV.</li>
+  </ul>
+
+  <h2>Deleting your data</h2>
+  <p>Remove the extension at <code>chrome://extensions</code>. Chrome then deletes everything the extension stored. To check what the AI provider kept, see that provider's policy above.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, we will update this page and its effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions: <a href="mailto:gidianbateman@gmail.com">gidianbateman@gmail.com</a></p>
+</main>
+</body>
+</html>
